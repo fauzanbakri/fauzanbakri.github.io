@@ -21,13 +21,14 @@ body {
   text-align: center;
   text-decoration: underline;
 }
-
 .about{
+  border-radius: 20px;
   text-align: justify;
   margin: auto;
   padding: 120px;
   opacity: 40%;
   background: #ccc;
+  margin-bottom: 70px;
 }
 .team-box{
   max-width: 1200px;
