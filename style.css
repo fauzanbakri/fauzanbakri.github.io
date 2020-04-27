@@ -146,10 +146,13 @@ body {
 
 .message-wrapper h2 {
   opacity: 0.7;
-  color: white;
-  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 2px solid;
+  font-size: 20px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .contact-form {
