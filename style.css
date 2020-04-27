@@ -18,8 +18,12 @@ body {
   text-align: center;
 }
 .about h2{
-  text-align: center;
-  text-decoration: underline;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 .about{
   border-radius: 20px;
