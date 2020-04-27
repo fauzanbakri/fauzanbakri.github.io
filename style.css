@@ -162,6 +162,7 @@ body {
   padding: 30px;
   border-radius: 5px;
   display: flex;
+  margin-bottom: 100px;
   box-shadow: 0 0 10px rgba(0,0,0,0.13);
 }
 .input-fields {
@@ -210,6 +211,66 @@ body {
 .btn:hover {
   opacity: 1;
 }
+
+.btn-a:hover{
+  background-color: #333;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  opacity: 70%;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header-logo img {
+  float: left;
+  background-image: image(F11.png);
+  height: 70px;
+  margin: 14px 20px;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+
+
+}
+.btn-a {
+  border: none;
+  color: white;
+  padding: 40px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  opacity: 70%;
+}
+
+.footer p {
+  float: center;
+  text-align: center;
+  color: #f7f1e3;
+  padding: 33px 50px;
+}
+
+.footer img {
+  background-image: image(Logo Digitalent.png);
+  height: 100px;
+  margin: auto;
+}
+
 
 @media screen and (max-width: 600px) {
   .contact-form {
